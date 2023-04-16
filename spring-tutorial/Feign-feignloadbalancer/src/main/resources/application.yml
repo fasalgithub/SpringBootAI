@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user-service
+
+server:
+  port: 8888
+
+Friends-group-client:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:7099
+
+    ServerListRefreshInterval: 15000

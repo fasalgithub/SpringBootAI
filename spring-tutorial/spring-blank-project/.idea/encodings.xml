@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../../../All Spring boot/SpringBatchDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../All Spring boot/SpringBatchDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../All Spring boot/logging &amp; configuration/logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../All Spring boot/logging &amp; configuration/logging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CacheData/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CacheData/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ConditionalAnnotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ConditionalAnnotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feigh-feignendpoints/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feigh-feignendpoints/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feign-feigncontroller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feign-feigncontroller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feign-feigncontrollerpoints/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feign-feigncontrollerpoints/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feign-feignloadbalancer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Feign-feignloadbalancer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../FlyWay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../FlyWay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GlobalException/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GlobalException/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ResponseEntity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ResponseEntity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Spring-cloud-Config-Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Spring-cloud-Config-Client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Spring-cloud-Config-Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Spring-cloud-Config-Server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurityJPA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurityJPA/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurityJPAwithJWT/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurityJPAwithJWT/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../circuitbreaker-studentResilient4j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../circuitbreaker-studentResilient4j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../circuitbreaker-studentenpoints/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../circuitbreaker-studentenpoints/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../microservice/QtreeEurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../microservice/QtreeEurekaServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../microservice/QtreeStudentInfo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../microservice/QtreeStudentInfo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../microservice/QtreeTrainerInfo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../microservice/QtreeTrainerInfo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springbootcruddemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springbootcruddemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcontainer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcontainer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springmvcandboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springmvcandboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../studentjpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../backup/SPRINGBOOT/spring mvc Alex/aspectprogram/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../backup/SPRINGBOOT/spring mvc Alex/aspectprogram/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

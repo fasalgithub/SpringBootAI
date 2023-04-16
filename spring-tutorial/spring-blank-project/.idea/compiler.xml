@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FlyWay" />
+        <module name="spring-blank-project" />
+        <module name="QtreeStudentInfo" />
+        <module name="QtreeTrainerInfo" />
+        <module name="Spring-cloud-Config-Client" />
+        <module name="Feign-endpoint" />
+        <module name="CacheData" />
+        <module name="Feign-feignloadbalancer" />
+        <module name="Feign-feigncontrollerpoints" />
+        <module name="SpringBatchDemo" />
+        <module name="CircuitBreakerStudentJPA" />
+        <module name="Spring-cloud-Config-Server" />
+        <module name="app" />
+        <module name="aspectprogram" />
+        <module name="SpringSecurity" />
+        <module name="feigh" />
+        <module name="SpringSecurityJPA" />
+        <module name="springbootcuredemo" />
+        <module name="SpringSecurityJPAwithJWT" />
+        <module name="CircuitBreakerStudentResilience4j" />
+        <module name="GlobalException" />
+        <module name="QtreeEurekaServer" />
+        <module name="ResponseEntity" />
+        <module name="springcontainer" />
+        <module name="studentjpa" />
+        <module name="ConditionalAnnotation" />
+        <module name="logging" />
+        <module name="config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Feigh-feignendpoints" target="11" />
+      <module name="Feign-feigncontroller" target="11" />
+      <module name="springmvc-gmail" target="1.5" />
+      <module name="springWebWorld" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CacheData" options="-parameters" />
+      <module name="CircuitBreakerStudentJPA" options="-parameters" />
+      <module name="CircuitBreakerStudentResilience4j" options="-parameters" />
+      <module name="ConditionalAnnotation" options="-parameters" />
+      <module name="Feigh-feignendpoints" options="-parameters" />
+      <module name="Feign-endpoint" options="-parameters" />
+      <module name="Feign-feigncontroller" options="-parameters" />
+      <module name="Feign-feigncontrollerpoints" options="-parameters" />
+      <module name="Feign-feignloadbalancer" options="-parameters" />
+      <module name="FlyWay" options="-parameters" />
+      <module name="GlobalException" options="-parameters" />
+      <module name="QtreeEurekaServer" options="-parameters" />
+      <module name="QtreeStudentInfo" options="-parameters" />
+      <module name="QtreeTrainerInfo" options="-parameters" />
+      <module name="ResponseEntity" options="-parameters" />
+      <module name="Spring-cloud-Config-Client" options="-parameters" />
+      <module name="Spring-cloud-Config-Server" options="-parameters" />
+      <module name="SpringBatchDemo" options="-parameters" />
+      <module name="SpringSecurity" options="-parameters" />
+      <module name="SpringSecurityJPA" options="-parameters" />
+      <module name="SpringSecurityJPAwithJWT" options="-parameters" />
+      <module name="app" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="feigh" options="-parameters" />
+      <module name="logging" options="-parameters" />
+      <module name="springWebWorld" options="-parameters" />
+      <module name="springbootcuredemo" options="-parameters" />
+      <module name="springcontainer" options="-parameters" />
+      <module name="studentjpa" options="-parameters" />
+    </option>
+  </component>
+</project>

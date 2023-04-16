@@ -1,0 +1,1 @@
+update STUDENT_TABLE set StudentName = 'Kaviya' where studentId = 3;

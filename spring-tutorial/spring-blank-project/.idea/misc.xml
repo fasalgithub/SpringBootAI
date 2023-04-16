@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcontainer/pom.xml" />
+        <option value="$PROJECT_DIR$/../springmvcandboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../springbootcuredemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../springbootcruddemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../studentjpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../config/pom.xml" />
+        <option value="$PROJECT_DIR$/../ConditionalAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/../CacheData/pom.xml" />
+        <option value="$PROJECT_DIR$/../FlyWay/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice/QtreeTrainerInfo/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice/QtreeStudentInfo/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice/QtreeEurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../ResponseEntity/pom.xml" />
+        <option value="$PROJECT_DIR$/../GlobalException/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringSecurityJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringSecurityJPAwithJWT/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../All Spring boot/SpringBatchDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring-cloud-Config-Client/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring-cloud-Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/../feigh/pom.xml" />
+        <option value="$PROJECT_DIR$/../Feigh-endpoint/pom.xml" />
+        <option value="$PROJECT_DIR$/../Feign-feignloadbalancer/pom.xml" />
+        <option value="$PROJECT_DIR$/../Feigh-feignendpoints/pom.xml" />
+        <option value="$PROJECT_DIR$/../Feign-feigncontroller/pom.xml" />
+        <option value="$PROJECT_DIR$/../Feign-feigncontrollerpoints/pom.xml" />
+        <option value="$PROJECT_DIR$/../circuitbreaker-studentenpoints/pom.xml" />
+        <option value="$PROJECT_DIR$/../circuitbreaker-studentResilient4j/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../All Spring boot/logging &amp; configuration/logging/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../backup/SPRINGBOOT/spring mvc Alex/aspectprogram/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

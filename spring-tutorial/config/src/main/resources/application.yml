@@ -1,0 +1,30 @@
+spring.application.name : spring-boot-configuration
+server.port : 9990
+
+mine:
+ use : Sathya
+
+my:
+ greeting :
+    message : Welcome ${mine.use}
+ language : java,python,c#
+ credential : "{usename : 'Sathya',Password : 'sathya'}"
+
+#bean
+db :
+  url : https://localhost:db
+  port : 2303
+  username : sathya
+  password : sathya
+
+
+
+
+
+
+#autuator
+#http://localhost:9990/actuator/configprops (Get all available beans)
+management.endpoints.web.exposure.include : "*"
+
+##application-<profile>.ext
+#spring.profiles.active : test

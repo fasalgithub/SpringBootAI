@@ -1,0 +1,51 @@
+Spring vs Springboot
+springmvc vs springboot
+@SpringBootApplication
+Spring Boot CLI
+purposes of SpringApplication.run();
+What is Spring Boot dependency management?
+How to disable a specific auto-configuration class? @EnableAutoConfiguration(exclude={className})
+
+Annotations
+@Bean
+@Component
+@Configuration
+@Service
+@Repository
+@Autowired(required = true)
+@Autowired(required = false) -> @Lazy, @Injuct, @Setter
+@Quailifer
+@Primary
+
+Bean Life Cycle
+
+@Controller, 
+@RequestMapping( @RequestVariable, @PathParam {id})
+@RestController -> @Controller + @ResponseBody
+@RequestMapping vs @RestController
+
+imporatant
+
+1.1 MicroService-> RestTemplate 
+1. circuit breaker -> Resilent4j -> FaultTolerent
+2. AOP -> aspect oriented program -> cross cutting concern -> advice(what), pointcut(where), jointpoint
+3. @Conditional
+4. Config -> profile, @ConfigurationProperties, actuator, yml
+5. Flyway
+6. Global Exception Handler- > @ControllerAdvice, @ExceptionHandler
+7. logger -> appender, RollingFileAppender
+8. Eureka (ServiceDiscovery, 8761) @LoadBalanced
+9. ResponseEnity
+10. Security -> JWT
+11. JPA -> Repository -> ORM
+12. JDBC Template
+13. zuul Gateway, feignclient, colud config
+
+
+
+
+
+
+
+
+
