@@ -1,6 +1,7 @@
 package com.example.responseentity.ResponseEntity;
 
 import com.example.responseentity.ResponseEntity.model.Cricketer;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.HttpHeaders;
@@ -17,13 +18,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-public class ResponseEntityApplication
+public class ResponseEntityApplication implements CommandLineRunner
 {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ResponseEntityApplication.class, args);
 	}
 
+	@Override
+	public void run(String... args) throws Exception {
+		Cricketer cricketer = new Cricketer(null,"batsman","Rohit","1980-2000");
+		System.out.println(cricketer);
+	}
 }
 
 @RestController

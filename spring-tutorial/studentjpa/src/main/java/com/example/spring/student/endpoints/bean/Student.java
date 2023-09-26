@@ -17,7 +17,6 @@ import javax.persistence.*;
 @NamedNativeQuery(name = "Student.retrieveStudentsByBloodGroup",
         query = "Select * from Student_Info where blood_group = ?1",
         resultClass = Student.class)
-/*
 @NamedQueries({
         @NamedQuery(name = "",query = ""),
         @NamedQuery(name = "",query = "")
@@ -26,7 +25,8 @@ import javax.persistence.*;
 @NamedNativeQueries({
         @NamedNativeQuery(name = "",query = "",resultClass = Student.class),
         @NamedNativeQuery(name = "",query = "",resultClass = Student.class)
-})*/
+})
+
 public class Student
 {
     @Id

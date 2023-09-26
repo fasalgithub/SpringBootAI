@@ -29,4 +29,6 @@ public interface StudentPagingAndSorting extends JpaRepository<Student,Integer>
      @Transactional
      @Query(value = "update Student s set s.studentName = :studentName where s.studentId = :studentId")
      int updateStudent(@Param("studentId") int id, @Param("studentName") String name);
+
+
 }

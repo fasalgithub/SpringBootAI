@@ -48,11 +48,11 @@ public class StudentJpaApplication implements CommandLineRunner
         //Update
 //        studentRepo.updateStudentCount("Aravind",1);
 
-       Page<Student> pages = studentRepo.findAll(PageRequest.of(1,6).withSort(Sort.by("studentId").ascending()));
+       /*Page<Student> pages = studentRepo.findAll(PageRequest.of(1,6).withSort(Sort.by("studentId").ascending()));
        System.out.println(pages.getTotalPages());
        System.out.println(pages.getTotalElements());
        System.out.println(pages.getNumber());
-       pages.getContent().stream().forEach(System.out::println);
+       pages.getContent().stream().forEach(System.out::println);*/
 
 
     }

@@ -1,3 +1,4 @@
+/*
 package com.example.spring.student.endpoints.dao;
 
 
@@ -74,3 +75,4 @@ public interface StudentRepo extends JpaRepository<Student,Integer>
 
 
 }
+*/
