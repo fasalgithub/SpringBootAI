@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 
 //@ConditionalOnProperty(value = "security.permission", havingValue = "true")
+
 @Conditional(PropertyCondtional.class)
 @Component
 public class Permission

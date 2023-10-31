@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FlyWay" />
+        <module name="messaging-starters" />
         <module name="spring-blank-project" />
         <module name="QtreeStudentInfo" />
         <module name="QtreeTrainerInfo" />
@@ -15,6 +16,7 @@
         <module name="Feign-endpoint" />
         <module name="CacheData" />
         <module name="Feign-feignloadbalancer" />
+        <module name="storage-starters" />
         <module name="FileStarter" />
         <module name="Feign-feigncontrollerpoints" />
         <module name="SpringBatchDemo" />
@@ -44,8 +46,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aws-bucket-starter" target="1.8" />
       <module name="Feigh-feignendpoints" target="11" />
       <module name="Feign-feigncontroller" target="11" />
+      <module name="jms-listener-spring" target="1.5" />
       <module name="springmvc-gmail" target="1.5" />
       <module name="springWebWorld" target="1.8" />
     </bytecodeTargetLevel>
@@ -76,14 +80,17 @@
       <module name="SpringSecurityJPA" options="-parameters" />
       <module name="SpringSecurityJPAwithJWT" options="-parameters" />
       <module name="app" options="-parameters" />
+      <module name="aws-bucket-starter" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="feigh" options="-parameters" />
       <module name="jaxbmarshaller" options="-parameters" />
       <module name="junit-mockito" options="-parameters" />
       <module name="logging" options="-parameters" />
+      <module name="messaging-starters" options="-parameters" />
       <module name="springWebWorld" options="-parameters" />
       <module name="springbootcuredemo" options="-parameters" />
       <module name="springcontainer" options="-parameters" />
+      <module name="storage-starters" options="-parameters" />
       <module name="student-services" options="-parameters" />
       <module name="studentjpa" options="-parameters" />
       <module name="studentjpa (1)" options="-parameters" />

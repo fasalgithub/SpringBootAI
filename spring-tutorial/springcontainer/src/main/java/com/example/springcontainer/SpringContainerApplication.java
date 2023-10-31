@@ -17,8 +17,17 @@ public class SpringContainerApplication
     public static void main(String[] args)
     {
         ConfigurableApplicationContext springContainer = SpringApplication.run(SpringContainerApplication.class, args);
+        Technology  technology1 = springContainer.getBean(Technology.class);
+        Technology  technology2 = springContainer.getBean(Technology.class);
+
+        technology1.setLanguage("Java");
+        technology2.setLanguage("Python");
+
+        System.out.println(technology1.getLanguage());
     }
-    @Bean
+
+
+   /* @Bean
     @Qualifier("javaTech")
     public Technology javaTech() {
         Technology javaTech = new Technology();
@@ -32,7 +41,7 @@ public class SpringContainerApplication
         Technology pythonTech = new Technology();
         pythonTech.setLanguage("python");
         return pythonTech;
-    }
+    }*/
 
 
 

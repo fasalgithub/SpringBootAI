@@ -61,13 +61,12 @@ public class MyFirstUnivocity {
         return Arrays.asList(parser.parseLine(content)).stream().reduce((firstContent, secondContent) -> firstContent + " | " + secondContent).orElse("");
     }
 
-    private String readTxtFile(File file) {
+    public String readTxtFile(File file) {
         StringBuilder stringBuilder = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = reader.readLine()) != null) {
-
-                stringBuilder.append(getSplitByLength(line) + "\n");
+                stringBuilder.append(line + "\n");
             }
         } catch (IOException e) {
             e.printStackTrace();

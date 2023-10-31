@@ -32,7 +32,7 @@ public class Learner {
     public void setDomain(String domain) {
         this.domain = domain;
     }
-    public void study() {
+   /* public void study() {
         pythonTech.showMyLanguage();
-    }
+    }*/
 }

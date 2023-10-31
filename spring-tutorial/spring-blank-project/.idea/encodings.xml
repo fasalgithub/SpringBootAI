@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.7.1/src/main/resources" charset="UTF-8" />
+    <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/3.1.2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../../../All Spring boot/SpringBatchDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../../../All Spring boot/SpringBatchDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../../../All Spring boot/logging &amp; configuration/logging/src/main/java" charset="UTF-8" />
@@ -41,6 +43,8 @@
     <file url="file://$PROJECT_DIR$/../config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../jaxbmarshaller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../jms-listener-spring-master/jms-listener-spring-master/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../jms-listener-spring-master/jms-listener-spring-master/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../junit-mockito/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../junit-mockito/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../microservice/QtreeEurekaServer/src/main/java" charset="UTF-8" />
@@ -57,9 +61,12 @@
     <file url="file://$PROJECT_DIR$/../springcontainer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springmvcandboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springmvcandboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../storageStarter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../student-services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../student-services/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../studentjpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../UST Health Care/Git/messageStarter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../UST Health Care/Git/messageStarter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../../../backup/SPRINGBOOT/spring mvc Alex/aspectprogram/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../../../backup/SPRINGBOOT/spring mvc Alex/aspectprogram/src/main/resources" charset="UTF-8" />
   </component>

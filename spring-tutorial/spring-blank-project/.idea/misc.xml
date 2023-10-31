@@ -41,6 +41,9 @@
         <option value="$PROJECT_DIR$/../junit-mockito/pom.xml" />
         <option value="$PROJECT_DIR$/../sp-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/../FileStarter/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../UST Health Care/Git/messageStarter/pom.xml" />
+        <option value="$PROJECT_DIR$/../jms-listener-spring-master/jms-listener-spring-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../storageStarter/pom.xml" />
       </list>
     </option>
   </component>

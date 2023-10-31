@@ -8,6 +8,7 @@ public class PropertyCondtional implements Condition
 {
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
+        System.out.println(context.getEnvironment().getProperty("security.permission",String.class));
         return context.getEnvironment().getProperty("security.permission",String.class).matches("true");
     }
 }
