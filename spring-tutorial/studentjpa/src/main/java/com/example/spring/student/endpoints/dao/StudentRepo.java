@@ -48,6 +48,7 @@ public interface StudentRepo extends JpaRepository<Student,Integer>
     //NamedQuery
     List<Student> retrieveStudentsByBloodGroup(String bloodGroup);
     List<Student> retrieveStudentsByMarks(int mark);
+
     @Query("from Student s where s.mark = ?1")
     List<Student> getMyStudentByMarks(int mark);
 

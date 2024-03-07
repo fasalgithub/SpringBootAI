@@ -2,7 +2,6 @@ package com.example.spring.student.endpoints;
 
 import com.example.spring.student.endpoints.bean.Student;
 import com.example.spring.student.endpoints.dao.StudentPagingAndSorting;
-import com.example.spring.student.endpoints.dao.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,8 +13,8 @@ import org.springframework.data.domain.Sort;
 @SpringBootApplication
 public class StudentJpaApplication implements CommandLineRunner
 {
-    @Autowired
-    private StudentRepo studentRepo;
+    /*@Autowired
+    private StudentRepo studentRepo;*/
     @Autowired
     private StudentPagingAndSorting studentPagingAndSorting;
 
@@ -48,11 +47,11 @@ public class StudentJpaApplication implements CommandLineRunner
         //Update
 //        studentRepo.updateStudentCount("Aravind",1);
 
-       /*Page<Student> pages = studentRepo.findAll(PageRequest.of(1,6).withSort(Sort.by("studentId").ascending()));
+       Page<Student> pages = studentPagingAndSorting.findAll(PageRequest.of(1,6).withSort(Sort.by("studentId").ascending()));
        System.out.println(pages.getTotalPages());
        System.out.println(pages.getTotalElements());
        System.out.println(pages.getNumber());
-       pages.getContent().stream().forEach(System.out::println);*/
+       pages.getContent().stream().forEach(System.out::println);
 
 
     }

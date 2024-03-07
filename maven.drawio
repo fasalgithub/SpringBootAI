@@ -1,28 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T14:38:15.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="O0yLrACbxsoz9QOGhtb0" version="21.6.6" type="device" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-27T02:31:08.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="iO4NiDrppr9YZF3BLapI" version="23.1.6" type="device" pages="4">
   <diagram name="Page-1" id="v72zLzGswH_-SbhGCDq6">
-    <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iGaCfy3RDfq34N3Fjkox-1" value="Maven" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="390" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XF3XICR2TRO_veLRBAxS-1" value="Maven is a build automation tool used primarily for Java projects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="120" width="200" height="70" as="geometry" />
+          <mxGeometry x="320" y="110" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ziiQEypOMKsoH9rg0cCN-1" value="GroupId -&amp;gt; java.squad&lt;br&gt;artifactid -&amp;gt; bank-application&lt;br&gt;version -&amp;gt; 0.0.1-SNAPSHOT&lt;br&gt;name -&amp;gt; my-bank-application&lt;br&gt;description -&amp;gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="285" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vouC_8qmh63baDgTrqXv-1" value=".m2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vouC_8qmh63baDgTrqXv-2" value="remote" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vouC_8qmh63baDgTrqXv-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="VDSWFnZuZbqpT5_zlbNt" name="Page-2">
-    <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yWVAk60BhxFJHqQ3-wRK-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="300" y="40" width="640" height="640" as="geometry" />
+          <mxGeometry x="300" y="40" width="740" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="yWVAk60BhxFJHqQ3-wRK-1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xa;&#xa;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#xa;         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven4.0.0.xsd&quot;&gt;&#xa;    &#xa;    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#xa;&#xa;&#xa;    &lt;groupId&gt;&lt;/groupId&gt;&#xa;    &lt;artifactId&gt;&lt;/artifactId&gt;&#xa;    &lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;&#xa;    &lt;name&gt;&lt;/name&gt;&#xa;    &lt;description&gt;&lt;/description&gt;&#xa;&#xa;&#xa;    &lt;properties&gt;&#xa;        &lt;java.version&gt;&lt;/java.version&gt;&#xa;    &lt;/properties&gt;&#xa;    &#xa;&#xa;&#xa;    &lt;dependencies&gt;&#xa;        &lt;!-- spring dependency --&gt;&#xa;    &lt;/dependencies&gt;&#xa;&#xa;&#xa;&#xa;&#xa;    &lt;build&gt;&#xa;        &lt;plugins&gt;&#xa;    &#xa;        &lt;/plugins&gt;&#xa;    &lt;/build&gt;&#xa;&#xa;&#xa;&lt;/project&gt;" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="320" y="150" width="600" height="560" as="geometry" />
+        <mxCell id="yWVAk60BhxFJHqQ3-wRK-1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xa;&#xa;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#xa;         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven4.0.0.xsd&quot;&gt;&#xa;    &#xa;    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#xa;&#xa;&#xa;    &lt;groupId&gt;&lt;/groupId&gt;&#xa;    &lt;artifactId&gt;&lt;/artifactId&gt;&#xa;    &lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;&#xa;    &lt;name&gt;&lt;/name&gt;&#xa;    &lt;description&gt;&lt;/description&gt;&#xa;&#xa;&#xa;    &lt;properties&gt;&#xa;        &lt;java.version&gt;17&lt;/java.version&gt;&#xa;        &lt;postgressql.version&gt;42.6.0&lt;/postgressql.version&gt;&#xa;    &lt;/properties&gt;&#xa;    &#xa;&#xa;&#xa;    &lt;dependencies&gt;&#xa;        &lt;!-- spring dependency --&gt;&#xa;       &lt;!-- https://mvnrepository.com/artifact/org.postgresql/postgresql --&gt;&#xa;       &lt;dependency&gt;&#xa;             &lt;groupId&gt;org.postgresql&lt;/groupId&gt;&#xa;             &lt;artifactId&gt;postgresql&lt;/artifactId&gt;&#xa;            &lt;version&gt;${postgressql.version}&lt;/version&gt;&#xa;        &lt;/dependency&gt;&#xa;    &lt;/dependencies&gt;&#xa;&#xa;&#xa;&#xa;&#xa;    &lt;build&gt;&#xa;        &lt;plugins&gt;&#xa;    &#xa;        &lt;/plugins&gt;&#xa;    &lt;/build&gt;&#xa;&#xa;&#xa;&lt;/project&gt;" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="350" y="100" width="600" height="560" as="geometry" />
         </mxCell>
         <mxCell id="K_PmTCZISsHTQoAlgheo-1" value="Project Object Model&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="10" width="140" height="30" as="geometry" />
@@ -34,33 +49,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yIwldRZccR5QRO1kDibo" name="Page-3">
-    <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P2II1SJuw97YxicX1sbw-1" value="Spring vs Spring boot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-1" value="Spring vs Spring boot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="70" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P2II1SJuw97YxicX1sbw-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="280" y="260" width="280" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="P2II1SJuw97YxicX1sbw-4" value="spring container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-4" value="spring container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="550" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P2II1SJuw97YxicX1sbw-5" value="Mobile" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-5" value="Mobile" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="320" y="310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P2II1SJuw97YxicX1sbw-6" value="mobile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-6" value="mobile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P2II1SJuw97YxicX1sbw-7" value="Sim" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-7" value="Sim" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="460" y="310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P2II1SJuw97YxicX1sbw-8" value="airtel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-8" value="airtel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="380" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P2II1SJuw97YxicX1sbw-10" value="jio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P2II1SJuw97YxicX1sbw-10" value="jio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HjnVLEv8nYCiJp5Jp_XI" name="Page-4">
+    <mxGraphModel dx="786" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9LNgbBnkQS5H6Q08ZEoU-1" value="groupid&amp;nbsp; &amp;nbsp; &amp;nbsp;in.java&lt;br&gt;artifactid&amp;nbsp; maven&lt;br&gt;version&amp;nbsp; &amp;nbsp;0.0.1.SNAP-SHOT&lt;br&gt;package-name&amp;nbsp;&amp;nbsp;in.java.maven" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="150" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNgbBnkQS5H6Q08ZEoU-2" value="maven" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="90" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

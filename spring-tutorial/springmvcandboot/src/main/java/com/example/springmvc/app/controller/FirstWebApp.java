@@ -28,17 +28,26 @@ public class FirstWebApp
         return "app";
     }
 
-    @RequestMapping("/login")
+   /* @RequestMapping("/login")
     public String getMyUser(User user)
     {
        return userService.addMyUser(user);
-    }
+    }*/
 
     @RequestMapping("/get-my-all-user")
     @ResponseBody
     public List<User> getAllMyUser()
     {
         return userService.getAllMyUser();
+    }
+
+    @RequestMapping("/login")
+    public ModelAndView getMyUser(User user)
+    {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("view");
+        mv.addObject("user",user);
+        return mv;
     }
 
 }

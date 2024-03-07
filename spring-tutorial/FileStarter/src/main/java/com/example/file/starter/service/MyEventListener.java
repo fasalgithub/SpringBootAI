@@ -19,7 +19,7 @@ import java.util.concurrent.Future;
 
 
 @RequiredArgsConstructor
-@Component
+//@Component
 public class MyEventListener {
     @Autowired
     private final MyFileAlterationListener myFileAlterationListener;

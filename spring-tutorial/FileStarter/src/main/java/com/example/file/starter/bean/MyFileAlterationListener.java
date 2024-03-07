@@ -8,20 +8,17 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 @Service
 public class MyFileAlterationListener implements FileAlterationListener {
     private final MyFirstUnivocity myFirstUnivocity;
-    private volatile List<String> listOfContent = null;
+    private List<String> listOfContent;
 
     @Autowired
     MyFileAlterationListener(MyFirstUnivocity myFirstUnivocity) {
         this.myFirstUnivocity = myFirstUnivocity;
-        this.listOfContent = new ArrayList<>();
+        this.listOfContent = Collections.synchronizedList(new ArrayList<>());
     }
 
 

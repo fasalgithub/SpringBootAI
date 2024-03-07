@@ -7,15 +7,10 @@ import org.apache.commons.io.monitor.FileAlterationObserver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 
 import java.io.File;
-import java.util.Collections;
-import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 
 
 @RequiredArgsConstructor
@@ -32,8 +27,10 @@ public class MyEventListenerWithQueueWorkers {
         synchronized (myFileAlterationListener) {
             accessThread = new Thread(() -> {
                 while (!Thread.currentThread().isInterrupted()) {
-                    myFileAlterationListener.getMyContents().forEach(System.out::println);
-                    myFileAlterationListener.getMyContents().clear();
+                    if (!CollectionUtils.isEmpty(myFileAlterationListener.getMyContents())) {
+                        myFileAlterationListener.getMyContents().forEach(System.out::println);
+                        myFileAlterationListener.getMyContents().clear();
+                    }
                 }
             }, "Access Thread");
         }

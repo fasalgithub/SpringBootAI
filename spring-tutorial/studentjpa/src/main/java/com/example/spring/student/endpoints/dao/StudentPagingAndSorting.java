@@ -31,4 +31,6 @@ public interface StudentPagingAndSorting extends JpaRepository<Student,Integer>
      int updateStudent(@Param("studentId") int id, @Param("studentName") String name);
 
 
+
+
 }

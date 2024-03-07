@@ -2,6 +2,7 @@ package com.example.file.starter;
 
 import com.example.file.starter.bean.EventThreadExecutorService;
 import com.example.file.starter.service.MyEventListener;
+import com.example.file.starter.service.MyEventListenerWithQueueWorkers;
 import com.example.file.starter.service.MyFirstTikka;
 import com.example.file.starter.service.MyFirstUnivocity;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,20 +24,25 @@ public class FileStarterApplication implements CommandLineRunner {
     private MyFirstTikka myFirstTikka;
     @Autowired
     private MyFirstUnivocity myFirstUnivocity;
-    @Autowired
-    private MyEventListener myEventListener;
+   /* @Autowired
+    private MyEventListener myEventListener;*/
     @Autowired
     private EventThreadExecutorService eventThreadExecutorService;
+    @Autowired
+    private MyEventListenerWithQueueWorkers eventListenerWithQueueWorkers;
 
 
     @Override
     public void run(String... args) throws Exception
     {
-        File fileReadPath = new File("C:\\playground\\Qtree\\file hadling");
-        List<String> listOfContent = myEventListener.process(fileReadPath);
-        listOfContent.forEach(System.out::println);
+        File fileReadPath = new File("C:\\playground\\Qtree\\file handling");
+
+        /*List<String> listOfContent = myEventListener.process(fileReadPath);
+        listOfContent.forEach(System.out::println);*/
 
 //      eventThreadExecutorService.process();
+
+        eventListenerWithQueueWorkers.process(fileReadPath);
 
 
     }
